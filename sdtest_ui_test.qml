@@ -54,17 +54,6 @@ ApplicationWindow {
         font.pixelSize: 73
     }
 
-        Column {
-        anchors.centerIn: parent
-
-        RadioButton { text: qsTr("Small") }
-        RadioButton { text: qsTr("Medium");  checked: true }
-        RadioButton { text: qsTr("Large") }    Column {
-        anchors.centerIn: parent
-
-        RadioButton { text: qsTr("Small") }
-        RadioButton { text: qsTr("Medium");  checked: true }
-        RadioButton { text: qsTr("Large") }
 
 
 }
